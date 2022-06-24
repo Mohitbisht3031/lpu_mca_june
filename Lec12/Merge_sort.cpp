@@ -29,10 +29,6 @@ void merge(vector<int>&v,int s,int e){
         j++;
     }
 
-    for(int k = s;k<=e;k++){
-        v[k] = arr[k-s];
-    }
-
     return;
 }
 

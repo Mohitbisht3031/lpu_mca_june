@@ -23,14 +23,14 @@ int qsHelper(vector<int>&v,int s,int e){
         else i++;
     }
 
-    return c;
+    return c+s;
 }
 
 void qs(vector<int>&v,int s,int e){
     if(s >= e)return ;
     cout<<"in the qs"<<endl;
     int ans = qsHelper(v,s,e);
-    qs(v,s,ans);
+    qs(v,s,ans-1);
     qs(v,ans+1,e);
 
     return;
