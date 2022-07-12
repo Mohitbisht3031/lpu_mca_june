@@ -1,0 +1,9 @@
+https://leetcode.com/problems/minimum-path-sum/
+
+https://leetcode.com/problems/longest-increasing-subsequence/
+
+https://leetcode.com/problems/longest-common-subsequence/
+
+https://leetcode.com/problems/coin-change/
+
+https://leetcode.com/problems/ones-and-zeroes/
